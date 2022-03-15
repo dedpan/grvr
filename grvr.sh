@@ -1,4 +1,4 @@
-wget -P $HOST/Downloads https://golang.org/dl/go$1.linux-amd64.tar.gz
+wget -P $HOST/Downloads https://dl.google.com/go/go$1.linux-amd64.tar.gz
 echo $1 "binary downloaded and stored in" $HOST/Downloads
 sudo tar -C /usr/local/ -xzf $HOST/Downloads/go$1.linux-amd64.tar.gz
 echo "Go installed! Now configuring the ENV variables!"
